@@ -34,5 +34,6 @@ public class Main {
         System.out.println("Harry cambia su hechizo a Oculus Reparo.");
         harry.setSpell(new OculusReparo());
         harry.doSpell();
+        System.out.println();
     }
 }
