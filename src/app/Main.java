@@ -28,9 +28,11 @@ public class Main {
 
         System.out.println("Hermione cambia su hechizo a Oculus Reparo.");
         hermione.setSpell(new OculusReparo());
-
         hermione.doSpell();
         System.out.println();
-
+        
+        System.out.println("Harry cambia su hechizo a Oculus Reparo.");
+        harry.setSpell(new OculusReparo());
+        harry.doSpell();
     }
 }
